@@ -1,0 +1,356 @@
+body {
+  background: rgb(21, 21, 21);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  color: white;
+}
+.header h1 {
+  font-family: sans-serif;
+}
+.jasmina {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  a {
+    color: white;
+  }
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.hero h1 {
+  font-size: 60px;
+}
+.listen {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.listen img {
+  width: 300px;
+}
+
+.bloks {
+  margin: 40px 0 15px 0;
+}
+
+.blok-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h1 {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+  }
+  button {
+    padding: 10px 10px;
+    background: rgba(17, 141, 168, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+.blok1 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  margin: 50px 0;
+  background: black;
+  border-radius: 10px;
+  padding: 40px 0;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  a {
+    margin: 20px 0;
+    color: rgba(17, 141, 168, 1);
+  }
+  h1 {
+    font-size: 50px;
+    color: white;
+    line-height: 45px;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+  p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.726);
+    font-family: sans-serif;
+  }
+  span {
+    font-size: 18px;
+    width: 60px;
+    height: 25px;
+    background: rgba(43, 39, 39, 0.445);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+  }
+}
+.blok1 button {
+  font-size: 18px;
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(17, 141, 168, 1);
+}
+
+.bloks2 {
+  margin: 40px 0 15px 0;
+}
+
+.blok2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 0;
+  background: black;
+  border-radius: 10px;
+  padding: 40px 0;
+}
+.title2 {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  a {
+    margin: 20px 0;
+    color: rgba(17, 141, 168, 1);
+  }
+  h1 {
+    font-size: 50px;
+    color: white;
+    line-height: 55px;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+  p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.726);
+    font-family: sans-serif;
+  }
+  span {
+    font-size: 10px;
+    width: 148px;
+    height: 25px;
+    background: rgba(43, 39, 39, 0.445);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+  }
+}
+.blok2 button {
+  font-size: 18px;
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(17, 141, 168, 1);
+}
+
+.middle2 {
+  margin: 40px 0 15px 0;
+}
+
+.middle2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px 0;
+  background: black;
+  border-radius: 10px;
+  padding: 40px 0;
+}
+.title4 {
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  a {
+    margin: 20px 0;
+    color: rgba(17, 141, 168, 1);
+  }
+  h1 {
+    font-size: 50px;
+    color: white;
+    line-height: 55px;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+  p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.726);
+    font-family: sans-serif;
+  }
+  span {
+    font-size: 10px;
+    width: 60px;
+    height: 25px;
+    background: rgba(43, 39, 39, 0.445);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+  }
+}
+.middle2 button {
+  font-size: 18px;
+  width: 210px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: rgba(17, 141, 168, 1);
+}
+
+.jacob {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0;
+  padding: 40px 0;
+  border-radius: 10px;
+}
+
+.jacob1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0 35px 0;
+
+  h1 {
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 500;
+  }
+  p {
+    color: rgba(255, 255, 255, 0.7);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-weight: 200px;
+    line-height: 25px;
+  }
+  a {
+    color: rgba(17, 141, 168, 1);
+  }
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1250px;
+  height: 260px;
+  background: black;
+  border-radius: 15px;
+  margin: 0 35px;
+}
+
+.email1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+  margin: 0 35px;
+
+  h3 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgba(17, 141, 168, 1);
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+  h1 {
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+    font-weight: 100;
+  }
+}
+
+.email2 {
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 35px;
+
+  span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.091);
+    font-family: sans-serif;
+    width: 300px;
+    height: 45px;
+    font-weight: 100;
+    border-radius: 3px;
+    padding: 0 15px;
+  }
+  button {
+    width: 70px;
+    height: 35px;
+    background: rgba(17, 141, 168, 1);
+    border: none;
+    border-radius: 5px;
+  }
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 80px 30px;
+}
+.ins {
+  h1 {
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+  }
+  ion-icon {
+    color: white;
+    font-size: 30px;
+    padding: 0 7px;
+  }
+}
+.home {
+  color: rgba(255, 255, 255, 0.721);
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+}
+.style {
+  color: rgba(255, 255, 255, 0.699);
+  font-size: 20px;
+  font-family: sans-serif;
+}
